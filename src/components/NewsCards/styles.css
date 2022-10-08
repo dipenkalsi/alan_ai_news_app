@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.headline {
+  left: 130px;
+} 
+.clipped {
+  clip-path: polygon(50% 0, 100% 0, 100% 100%, 0% 100%);
+}
+@media screen and (max-width: 650px){
+  .headline {
+    left: 20px;
+  } 
+  .clipped {
+    clip-path: none;
+    max-height: 300px !important;
+  }
+}
+
+body{
+  padding: 50px 0;
+}
+
+.container {
+  padding: 10px 15px;
+}
+.bbc {
+  
+	background: url("https://m.files.bbci.co.uk/modules/bbc-morph-news-waf-page-meta/5.3.0/bbc_news_logo.png");
+  background-position: center center;
+  background-size: cover;
+}
+.cnn{
+  
+	background: url("https://static.skyassets.com/contentstack/assets/bltdc2476c7b6b194dd/bltbb2b0cf0f8615935/61ee9cfc284f0d35bcbb3af2/Main-Image-SN.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.gn{
+  
+	background: url("https://upload.wikimedia.org/wikipedia/commons/3/33/Google_News.png");
+  background-position: center center;
+  background-size: cover;
+}
+.sn{
+  
+	background: url("https://upskill.io/wp-content/uploads/2017/04/reuters-logo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bb{
+  
+	background: url("data:image/png;base64,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");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-item {
+	min-height: 350px;
+	height: 100%;
+	width:100%;
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: #09c;
+}
+.carousel-caption h3 {
+	padding: .5em;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption button {
+	border-color: #00bfff;
+	margin-top: 1em;
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	animation-delay: 2s;
+}
+.carousel-caption button {
+	animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
